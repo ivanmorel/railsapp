@@ -33,5 +33,6 @@ class PeopleController < ApplicationController
   end
 
   def test
+    @person = Person.new
   end
 end
